@@ -41,3 +41,10 @@ Parent/
 4. Two-sample t-test for statistical significance
 5. Segmentation analysis by order size
 6. Economic impact and ROI calculation
+
+### Experiment Design
+- Sample size: 23,674 orders (11,772 control, 11,902 treatment)
+- Statistical power: 80%
+- Significance level: 0.05
+- Minimum detectable effect: 5% revenue increase
+- Treatment: Free shipping for orders above 100 BRL
