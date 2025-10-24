@@ -18,7 +18,7 @@ Brazilian e-commerce marketplace data containing 98,666 orders from 2016-2018. T
 ## Repository Structure
 
 ```
-ab-testing-free-shipping/
+Parent/
 ├── data/
 │   ├── raw/                    # Original dataset (9 CSV files)
 │   └── processed/              # Cleaned and processed data
