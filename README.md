@@ -32,6 +32,16 @@ Parent/
     └── figures/                # Analysis visualizations
 ```
 
+## Notebooks
+
+- [data_exploration.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/data_exploration.ipynb) - Load, merge, and analyse datasets to determine baseline metrics and free shipping threshold
+- [data_quality_validation.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/data_quality_validation.ipynb) - Validate statistical assumptions including independence, outliers, and variance
+- [experiment_design.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/experiment_design.ipynb) - Perform power analysis, calculate sample size, and randomise treatment groups
+- [treatment_assignment.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/treatment_assignment.ipynb) - Simulate customer behaviour and generate experimental outcomes
+- [analysis.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/analysis.ipynb) - Conduct hypothesis testing and segmentation analysis to reveal treatment effects
+- [results_summary.ipynb](https://github.com/arnobmukherjee1988/AB-testing-free-shipping-Olist-/blob/main/notebooks/results_summary.ipynb) - Synthesise findings into business recommendations with ROI calculations
+
+
 ## Methodology
 
 ### Analysis Approach
@@ -75,3 +85,19 @@ Parent/
 ## Business Recommendation
 
 Implement targeted free shipping only for customers with orders below 75 BRL. This strategy generates 109,513 BRL net profit with 321% ROI, while universal free shipping loses 43,830 BRL due to customers already above the threshold receiving free shipping without changing behavior.
+
+## Key Insights
+
+1. **Simpson's Paradox:** The overall null result masks contradictory effects across customer segments
+2. **Free Rider Problem:** 41.5% of customers already above threshold get free shipping without behavioral change
+3. **Targeting Matters:** Blanket promotions can be inefficient when significant portion of customers already qualify
+4. **Economic vs Statistical:** Statistical significance alone does not guarantee profitability
+
+## Technical Skills Demonstrated
+
+- A/B testing methodology and experiment design
+- Statistical hypothesis testing (two-sample t-test)
+- Power analysis and sample size calculation
+- Segmentation analysis and heterogeneous treatment effects
+- Economic impact assessment and ROI calculation
+- Data validation and quality checks
