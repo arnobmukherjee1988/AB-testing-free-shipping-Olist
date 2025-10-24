@@ -13,3 +13,22 @@ A statistical analysis evaluating whether offering free shipping above a thresho
 ## Dataset
 
 Brazilian e-commerce marketplace data containing 98,666 orders from 2016-2018. The dataset includes order values, shipping costs, number of items, and customer information.
+
+
+## Repository Structure
+
+```
+ab-testing-free-shipping/
+├── data/
+│   ├── raw/                    # Original dataset (9 CSV files)
+│   └── processed/              # Cleaned and processed data
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 01_5_data_quality_validation.ipynb
+│   ├── 02_experiment_design.ipynb
+│   ├── 03_treatment_assignment.ipynb
+│   ├── 04_analysis.ipynb
+│   └── 05_results_summary.ipynb
+└── results/
+    └── figures/                # Analysis visualizations
+```
