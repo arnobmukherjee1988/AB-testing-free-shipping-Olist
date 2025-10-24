@@ -48,3 +48,30 @@ Parent/
 - Significance level: 0.05
 - Minimum detectable effect: 5% revenue increase
 - Treatment: Free shipping for orders above 100 BRL
+
+## Results
+
+### Overall Effect
+- Treatment effect: -0.79 BRL (-0.50%)
+- P-value: 0.7637 (not significant)
+- 95% CI: [-5.94, 4.36] BRL
+- Cohen's d: -0.0039 (negligible)
+
+### Segmentation Analysis
+
+| Segment | Treatment Effect | P-value | Net Economic Impact |
+|---------|------------------|---------|---------------------|
+| Small (<75 BRL) | +35.92% | <0.0001 | +109,513 BRL |
+| Medium (75-150 BRL) | -10.33% | <0.0001 | -48,336 BRL |
+| Large (>150 BRL) | -8.02% | 0.0003 | -105,006 BRL |
+
+### ROI Comparison
+
+| Strategy | Net Profit | ROI | Recommendation |
+|----------|-----------|-----|----------------|
+| Universal (all customers) | -43,830 BRL | -22% | Reject |
+| Targeted (small orders only) | +109,513 BRL | +321% | Implement |
+
+## Business Recommendation
+
+Implement targeted free shipping only for customers with orders below 75 BRL. This strategy generates 109,513 BRL net profit with 321% ROI, while universal free shipping loses 43,830 BRL due to customers already above the threshold receiving free shipping without changing behavior.
