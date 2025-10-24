@@ -14,7 +14,6 @@ A statistical analysis evaluating whether offering free shipping above a thresho
 
 Brazilian e-commerce marketplace data containing 98,666 orders from 2016-2018. The dataset includes order values, shipping costs, number of items, and customer information.
 
-
 ## Repository Structure
 
 ```
@@ -32,3 +31,13 @@ Parent/
 └── results/
     └── figures/                # Analysis visualizations
 ```
+
+## Methodology
+
+### Analysis Approach
+1. Data quality validation (independence, outliers, variance)
+2. Power analysis and sample size calculation
+3. Treatment effect simulation (40% response rate assumption)
+4. Two-sample t-test for statistical significance
+5. Segmentation analysis by order size
+6. Economic impact and ROI calculation
