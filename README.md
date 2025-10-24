@@ -75,7 +75,7 @@ Parent/
 | Medium (75-150 BRL) | -10.33% | <0.0001 | -48,336 BRL |
 | Large (>150 BRL) | -8.02% | 0.0003 | -105,006 BRL |
 
-![Segmentation Analysis](results/figures/04_segmentation_analysis.png)
+![Segmentation Analysis](results/figures/segmentation_analysis.png)
 *Simpson's Paradox revealed: small orders show strong positive effect whilst medium and large orders show negative effects, masked by aggregate analysis*
 
 ### ROI Comparison
