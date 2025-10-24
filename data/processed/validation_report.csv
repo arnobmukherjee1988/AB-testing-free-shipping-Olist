@@ -1,7 +1,0 @@
-check,status,details
-Independence,PASS,No repeat customers (100% unique)
-Temporal Distribution,PASS,Temporal ratio: 2.52 (acceptable)
-Order Quality,PASS,97.78% delivered orders
-Outliers,PASS,4.00% outliers (acceptable)
-Variability,ACKNOWLEDGED,"CV: 137.30% (high, but handled)"
-Data Completeness,PASS,0% missing values

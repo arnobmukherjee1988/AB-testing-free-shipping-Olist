@@ -1,5 +1,0 @@
-test,control_mean,treatment_mean,difference,pct_difference,p_value,significant
-Overall Two-Sample T-Test,159.20128780156304,158.4121202398898,-0.7891675616732527,-8.018246211767446,0.7636944801188532,NO
-Small Orders,58.43,79.42,20.99,35.92,0.0,YES
-Medium Orders,132.4,118.72,-13.68,-10.33,0.0,YES
-Large Orders,383.79,353.02,-30.77,-8.02,0.0003,YES

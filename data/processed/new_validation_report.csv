@@ -1,7 +1,0 @@
-check,status,details
-Independence,PASS,Repeat customers: 0.00%
-Temporal Distribution,PASS,Temporal ratio: 2.52
-Order Quality,PASS,Delivered orders: 97.02%
-Outliers,PASS,Outliers: 4.00%
-Variability,ACKNOWLEDGED,CV: 137.30%
-Data Completeness,PASS,No missing values
