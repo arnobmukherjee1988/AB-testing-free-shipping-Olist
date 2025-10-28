@@ -88,13 +88,15 @@ Parent/
 ## Business Recommendation
 
 Implement targeted free shipping only for customers with orders below 75 BRL. This strategy generates 109,513 BRL net profit with 321% ROI, while universal free shipping loses 43,830 BRL due to customers already above the threshold receiving free shipping without changing behavior.
+mic vs Statistical:** Statistical significance alone does not guarantee profitability
 
 ## Key Insights
 
 1. **Simpson's Paradox:** The overall null result masks contradictory effects across customer segments
-2. **Free Rider Problem:** 41.5% of customers already above threshold get free shipping without behavioral change
-3. **Targeting Matters:** Blanket promotions can be inefficient when significant portion of customers already qualify
-4. **Economic vs Statistical:** Statistical significance alone does not guarantee profitability
+2. **Inverse Relationship:** Small orders represent 44.9% of transactions but only 19.5% of revenue, while large orders are 24.2% of transactions but generate 56.1% of revenue. This 2.3x revenue concentration explains differential treatment effects.
+3. **Free Rider Problem:** 41.5% of customers already above threshold get free shipping without behavioral change
+4. **Targeting Matters:** Blanket promotions can be inefficient when significant portion of customers already qualify
+5. **Economic vs Statistical:** Statistical significance alone does not guarantee profitability
 
 ## Technical Skills Demonstrated
 
